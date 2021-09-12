@@ -91,12 +91,10 @@ const express = require('express')
 const app = express()
 const port = 5000
 
-app.get('/', (req, res) => {
+app
+.get('/', (req, res) => {
     getHusky2USDTe(function (response) {
         res.json(response)
     })
 })
-
-app.listen(port, () => {
-  console.log(`app listening at http://localhost:${port}`)
-})
+.listen(process.env.PORT || 5000)
