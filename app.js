@@ -11,8 +11,8 @@ let wavax            = "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7";
 let husky            = "0x65378b697853568da9ff8eab60c13e1ee9f4a654";
 let usdte            = "0xc7198437980c041c805a1edcba50c1ce5db95118";
 
-let huskyXwavaxPair  = "0xd05e435ae8d33fae82e8a9e79b28aaffb54c1751";
-let usdteXwavaxPair  = "0xe28984e1ee8d431346d32bec9ec800efb643eef4";
+let huskyXwavaxPair  = "0x91b62fb52c9fdf27ad18bbe1c4a8ff52df6104cc";
+let usdteXwavaxPair  = "0xed8cbd9f0ce3c6986b22002f03c6475ceb7a6256";
 
 let burnAddress      = "0x000000000000000000000000000000000000dEaD";
 
